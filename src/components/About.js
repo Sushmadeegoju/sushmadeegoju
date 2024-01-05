@@ -1,12 +1,20 @@
 import myFormalPic from '../images/my_formal_pic.jpg';
 import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
+
+
 
 export default function About() {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate('/contact');
+    }
     return (
         <div style={{ display: "flex", padding: "30px", backgroundColor: "rgb(246,246,246)"}}>
             <div style={{ display: "flex", flexDirection: "column"}}>
                 <img src={myFormalPic} width="500" height="550" alt="sushma's pic"/>
-                <Button variant="contained" style={{ alignSelf: "center", marginTop: "10px", maxWidth: "150px",backgroundColor: "#6F4E37" }}>Contact Me!</Button>
+                <Button variant="contained" style={{ alignSelf: "center", marginTop: "10px", maxWidth: "150px",backgroundColor: "#3b2e36" }} onClick={handleClick}>Contact Me!</Button>
             </div>
             
             <div style={{ fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif", color: '#333', lineHeight: 1.6, maxWidth: '700px', margin: 'auto' }}>

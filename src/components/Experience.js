@@ -23,7 +23,7 @@ export default function CustomizedTimeline() {
             // variant="body2"
             color="text.secondary"
         >
-            <Typography variant="h6" component="span" color="black">
+            <Typography variant="h6" component="span" color="#3b2e36">
             Web Developer
             </Typography>
             <Typography variant="body1" >IT Security Lab, Virginia Tech</Typography>
@@ -31,11 +31,11 @@ export default function CustomizedTimeline() {
             <Typography variant="body2" >Feb 2023 - Present</Typography>
         </TimelineOppositeContent>
         <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot>
+            <TimelineConnector sx={{ backgroundColor: '#3b2e36' }}/>
+            <TimelineDot sx={{ backgroundColor: '#3b2e36' }}>
             <WorkIcon />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector sx={{ backgroundColor: '#3b2e36' }}/>
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 3 }}>
             
@@ -68,7 +68,7 @@ export default function CustomizedTimeline() {
             align="left"
             color="text.secondary"
           >
-            <Typography variant="h6" component="span" color="black">
+            <Typography variant="h6" component="span" color="#3b2e36">
               Senior Software Engineer
             </Typography>
             <Typography variant="body1">Samsung R&D Institute</Typography>
@@ -76,11 +76,11 @@ export default function CustomizedTimeline() {
             <Typography variant="body2">Mar 2022 - Aug 2022</Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot>
+            <TimelineConnector sx={{ backgroundColor: '#3b2e36' }} />
+            <TimelineDot sx={{ backgroundColor: '#3b2e36' }}>
               <WorkIcon />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector sx={{ backgroundColor: '#3b2e36' }}/>
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 3 }}>
             <Typography variant="body2" color="text.secondary" width="600px">
@@ -109,7 +109,7 @@ export default function CustomizedTimeline() {
             variant="body2"
             color="text.secondary"
           >
-            <Typography variant="h6" component="span" color="black">
+            <Typography variant="h6" component="span" color="#3b2e36">
               Software Engineer
             </Typography>
             <Typography variant="body1">Samsung R&D Institute</Typography>
@@ -117,12 +117,12 @@ export default function CustomizedTimeline() {
             <Typography variant="body2">Jan 2021 - Feb 2022</Typography>
             
           </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector />
-            <TimelineDot>
+          <TimelineSeparator >
+            <TimelineConnector sx={{ backgroundColor: '#3b2e36' }}/>
+            <TimelineDot sx={{ backgroundColor: '#3b2e36' }}>
               <WorkIcon />
             </TimelineDot>
-            <TimelineConnector />
+            <TimelineConnector sx={{ backgroundColor: '#3b2e36' }}/>
           </TimelineSeparator>
           <TimelineContent sx={{ py: '12px', px: 3 }}>
             <Typography variant="body2" color="text.secondary" width="600px">

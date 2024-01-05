@@ -30,4 +30,5 @@ ul > li > a {
     margin-left: 15px;
     font-family: "Lobster";
     font-weight: bolder;
+    cursor: pointer;
 }

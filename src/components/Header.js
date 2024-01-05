@@ -1,10 +1,14 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import '../css/header.css'
 
 export default function Header() {
+  const navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/home');
+  }
     return (
         <header className="App-header">
-        <div className="logo">Sushma Deegoju</div>
+        <div className="logo" onClick={handleClick}>Sushma Deegoju</div>
         <nav>
           <ul>
             <li>
