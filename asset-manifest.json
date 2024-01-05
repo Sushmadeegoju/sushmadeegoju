@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sushmadeegoju/static/css/main.958f0a9b.css",
+    "main.js": "/sushmadeegoju/static/js/main.48d2dc47.js",
+    "static/media/my_formal_pic.jpg": "/sushmadeegoju/static/media/my_formal_pic.25db7cb3a8aa4a547416.jpg",
+    "static/media/bg_1.jpeg": "/sushmadeegoju/static/media/bg_1.4d14fc5a033f504f3891.jpeg",
+    "static/media/C++.jpeg": "/sushmadeegoju/static/media/C++.5185ce2f4c945505ee4f.jpeg",
+    "static/media/graduation-hat.png": "/sushmadeegoju/static/media/graduation-hat.6650c95498652a8c87f4.png",
+    "index.html": "/sushmadeegoju/index.html",
+    "main.958f0a9b.css.map": "/sushmadeegoju/static/css/main.958f0a9b.css.map",
+    "main.48d2dc47.js.map": "/sushmadeegoju/static/js/main.48d2dc47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.958f0a9b.css",
+    "static/js/main.48d2dc47.js"
+  ]
+}
