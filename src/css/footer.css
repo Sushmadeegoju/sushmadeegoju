@@ -1,0 +1,10 @@
+footer {
+    background-color: teal;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    /* background-color: #6F4E37; */
+    background-image: linear-gradient(to bottom, #524c50, #3b2e36);
+}

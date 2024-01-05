@@ -1,0 +1,33 @@
+.App-header {
+    /* background-color: #6F4E37; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(to bottom, #3b2e36, #524c50);
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+ul > li {
+    padding: 8px;
+    text-decoration: none;
+}
+
+ul > li > a {
+    text-decoration: none;  /* Remove underlines from the links */
+    color: inherit;  /* Use the color specified for the parent */
+}
+
+.logo {
+    margin-left: 15px;
+    font-family: "Lobster";
+    font-weight: bolder;
+}
