@@ -5,7 +5,7 @@ import './css/index.css';
 import App from './components/App';
 
 ReactDOM.render(
-  <Router>
+  <Router basename="/sushmadeegoju">
     <React.StrictMode>
       <App />
     </React.StrictMode>

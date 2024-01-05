@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import '../css/home.css';
 import Button from '@mui/material/Button';
 import { useNavigate } from 'react-router-dom';
+import { FaDownload } from 'react-icons/fa'; // Import the download icon
+
+import Resume from '../docs/Sushma_Deegoju_Resume.pdf';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -18,6 +21,10 @@ export default function Home() {
     navigate('/contact');
   }
 
+  const handleResumeDownload = () => {
+    // Add logic to trigger resume download
+    window.open(Resume, '_blank'); // Replace with your resume path
+  }
   
   useEffect(() => {
     let intervalId;
@@ -67,10 +74,17 @@ export default function Home() {
           </h3>
         </div>
       </div>
-      <div style={{ display: "flex" }}>
-        <Button variant="contained" style={{ marginRight: "10px", backgroundColor: "rgb(236 140 116)", color: "black" }} onClick={handleAbout}>Know More About Me!</Button>
-        <Button variant="contained" style={{ marginRight: "10px", backgroundColor: "rgb(236 140 116)", color: "black" }} onClick={handleContact}>Contact Me!</Button>
+      <div style={{ display: "flex", flexDirection: "row", alignItems: "center", marginTop: "20px" }}>
+        <Button variant="contained" style={{ backgroundColor: "rgb(236 140 116)", color: "black", marginRight: "10px" }} onClick={handleAbout}>
+          Know More About Me!
+        </Button>
+        <Button variant="contained" style={{ backgroundColor: "rgb(236 140 116)", color: "black", marginRight: "10px" }} onClick={handleContact}>
+          Contact Me!
+        </Button>
       </div>
+      <Button variant="contained" style={{ backgroundColor: "white", color: "black", borderRadius: "50px", marginTop: "50px" }} onClick={handleResumeDownload}>
+          <FaDownload style={{ marginRight: "5px", color: "#3b2e36" }} /> Resume
+      </Button>
     </div>
   );
 }
