@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sushmadeegoju/static/css/main.f70ee20d.css",
-    "main.js": "/sushmadeegoju/static/js/main.a11a691d.js",
+    "main.js": "/sushmadeegoju/static/js/main.4b6c1b95.js",
     "static/media/my_formal_pic.jpg": "/sushmadeegoju/static/media/my_formal_pic.25db7cb3a8aa4a547416.jpg",
     "static/media/bg_1.jpeg": "/sushmadeegoju/static/media/bg_1.4d14fc5a033f504f3891.jpeg",
-    "static/media/Sushma_Deegoju_Resume.pdf": "/sushmadeegoju/static/media/Sushma_Deegoju_Resume.1b54c5653906f7116b7a.pdf",
+    "static/media/Sushma_Deegoju_Resume.pdf": "/sushmadeegoju/static/media/Sushma_Deegoju_Resume.72463a1a0cf4a37936c9.pdf",
     "static/media/C++.jpeg": "/sushmadeegoju/static/media/C++.5185ce2f4c945505ee4f.jpeg",
     "static/media/graduation-hat.png": "/sushmadeegoju/static/media/graduation-hat.6650c95498652a8c87f4.png",
     "index.html": "/sushmadeegoju/index.html",
     "main.f70ee20d.css.map": "/sushmadeegoju/static/css/main.f70ee20d.css.map",
-    "main.a11a691d.js.map": "/sushmadeegoju/static/js/main.a11a691d.js.map"
+    "main.4b6c1b95.js.map": "/sushmadeegoju/static/js/main.4b6c1b95.js.map"
   },
   "entrypoints": [
     "static/css/main.f70ee20d.css",
-    "static/js/main.a11a691d.js"
+    "static/js/main.4b6c1b95.js"
   ]
 }
